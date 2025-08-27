@@ -202,13 +202,7 @@ export default function Home() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <Image 
-            src="/profile.jpg" 
-            alt="Jithnuka" 
-            width={256} 
-            height={256} 
-            className="rounded-full"
-          />
+          <Image src="/profile.jpg" alt="Jithnuka" width={256} height={256} className="rounded-full" />
         </motion.div>
       </section>
 
