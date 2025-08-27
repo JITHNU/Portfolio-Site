@@ -9,7 +9,7 @@ import BackgroundParticles from "./BackgroundParticles";
 import clsx from "clsx";
 import { ArrowUp } from "lucide-react";
 import Image from "next/image";
-
+import type { Engine } from "tsparticles-engine";
 
 function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
