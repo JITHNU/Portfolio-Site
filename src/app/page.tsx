@@ -163,10 +163,10 @@ export default function Home() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-4"><br></br><br></br>Hi, I&apos;m <span className="text-cyan-500">Jithnuka Weerasinghe</span></h1>
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-4"><br /><br />Hi, I&apos;m <span className="text-cyan-500">Jithnuka Weerasinghe</span></h1>
           <h2 className={clsx("text-2xl md:text-3xl font-medium mb-6", isDark ? "text-gray-300" : "text-gray-700")}>
             <Typewriter
-              words={["AI/ML Enthusiast", "Aspiring Data Scientist", "Web Devoloper", "Turning Data into Insights"]}
+              words={["AI/ML Enthusiast", "Aspiring Data Scientist", "Web Developer", "Turning Data into Insights"]}
               loop
               cursor
               cursorStyle="|"
@@ -321,22 +321,22 @@ export default function Home() {
         }`}
       >
         <p>© {new Date().getFullYear()} Jithnuka Weerasinghe. All rights reserved. 🚀</p>
-
-        <div className="flex gap-4 ">
-          <a href="https://github.com/JITHNU" target="_blank" className="hover:text-cyan-500 transition-colors">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/github.svg" alt="GitHub" className="w-6 h-6" />
+      
+        <div className="flex gap-4">
+          <a href="https://github.com/JITHNU" target="_blank">
+            <Image src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/github.svg" alt="GitHub" width={24} height={24} />
           </a>
-          <a href="https://www.linkedin.com/in/jithnuka-weerasinghe/" target="_blank" className="hover:text-cyan-500 transition-colors">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/linkedin.svg" alt="LinkedIn" className="w-6 h-6" />
+          <a href="https://www.linkedin.com/in/jithnuka-weerasinghe/" target="_blank">
+            <Image src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/linkedin.svg" alt="LinkedIn" width={24} height={24} />
           </a>
-          <a href="mailto:jithnukaweerasingha@gmail.com" className="hover:text-cyan-500 transition-colors">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/maildotru.svg" alt="Email" className="w-6 h-6" />
+          <a href="mailto:jithnukaweerasingha@gmail.com">
+            <Image src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/maildotru.svg" alt="Email" width={24} height={24} />
           </a>
-          <a href="https://www.instagram.com/__.jithnuka.__?igsh=MXdncXBoczJpaTV2ZA%3D%3D&utm_source=qr" target="_blank" className="hover:text-cyan-500 transition-colors">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/instagram.svg" alt="Instagram" className="w-6 h-6" />
+          <a href="https://www.instagram.com/__.jithnuka.__?igsh=MXdncXBoczJpaTV2ZA%3D%3D&utm_source=qr" target="_blank">
+            <Image src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/instagram.svg" alt="Instagram" width={24} height={24} />
           </a>
-          <a href="https://www.facebook.com/JithnukaWeerasinghe" target="_blank" className="hover:text-cyan-500 transition-colors">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/facebook.svg" alt="Facebook" className="w-6 h-6" />
+          <a href="https://www.facebook.com/JithnukaWeerasinghe" target="_blank">
+            <Image src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/facebook.svg" alt="Facebook" width={24} height={24} />
           </a>
         </div>
       </footer>
