@@ -162,8 +162,7 @@ export default function Home() {
           transition={{ duration: 1 }}
         >
           <h1 className="text-5xl md:text-6xl font-extrabold mb-4"><br></br><br></br>
-            Hi, I'm <span className="text-cyan-500">Jithnuka Weerasinghe</span>
-          </h1>
+            Hi, I&apos;m <span className="text-cyan-500">Jithnuka Weerasinghe</span></h1>
           <h2 className={clsx("text-2xl md:text-3xl font-medium mb-6", isDark ? "text-gray-300" : "text-gray-700")}>
             <Typewriter
               words={["AI/ML Enthusiast", "Aspiring Data Scientist", "Web Devoloper", "Turning Data into Insights"]}
