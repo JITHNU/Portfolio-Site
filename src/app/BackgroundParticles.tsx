@@ -7,8 +7,8 @@ import type { Engine } from "tsparticles-engine";
 
 export default function BackgroundParticles() {
   const particlesInit = useCallback(async (engine: Engine) => {
-    await loadFull(engine);
-  }, []);
+  await loadFull(engine);
+}, []);
 
   return (
     <Particles
@@ -36,4 +36,5 @@ export default function BackgroundParticles() {
     />
   );
 }
+
 
