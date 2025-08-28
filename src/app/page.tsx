@@ -196,12 +196,12 @@ export default function Home() {
         </motion.div>
 
         <motion.div
-          className="flex-1 flex justify-center md:justify-end mt-10 md:mt-0"
+          className="flex-1 flex justify-center md:justify-end mt-10 md:mt-30"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <Image src="/profile.jpg" alt="Jithnuka" width={256} height={256} className="rounded-full" />
+          <Image src="/profile.jpg" alt="Jithnuka" width={296} height={266} className="rounded-full" />
         </motion.div>
       </section>
 
