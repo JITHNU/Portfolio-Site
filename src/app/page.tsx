@@ -9,7 +9,6 @@ import BackgroundParticles from "./BackgroundParticles";
 import clsx from "clsx";
 import { ArrowUp } from "lucide-react";
 import Image from "next/image";
-import type { Engine } from "tsparticles-engine";
 
 function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
@@ -163,7 +162,7 @@ export default function Home() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-4"><br /><br />Hi, I&apos;m<span className="text-cyan-500">Jithnuka Weerasinghe</span></h1>
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-4"><br /><br />Hi, I&apos;m <span className="text-cyan-500"> Jithnuka Weerasinghe</span></h1>
           <h2 className={clsx("text-2xl md:text-3xl font-medium mb-6", isDark ? "text-gray-300" : "text-gray-700")}>
             <Typewriter
               words={["AI/ML Enthusiast", "Aspiring Data Scientist", "Web Developer", "Turning Data into Insights"]}
@@ -176,7 +175,7 @@ export default function Home() {
             />
           </h2>
           <p className={clsx("max-w-xl mb-6", isDark ? "text-gray-300" : "text-gray-700")}>
-            I'm a dedicated 3rd year undergraduate student pursuing a degree in Statistics and Computer Science, with a
+            I&apos;m a dedicated 3rd year undergraduate student pursuing a degree in Statistics and Computer Science, with a
             strong passion for data science and software development. I enjoy uncovering insights from data and using
             technology to solve real-world problems. With a solid foundation in statistical modeling and programming.<br></br>
           </p>
@@ -202,13 +201,7 @@ export default function Home() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <Image
-            src="/profile.jpg"
-            alt="Profile"
-            width={160}
-            height={160}
-            className="rounded-full w-40 h-40"
-          />        
+          <Image src="/profile.jpg" alt="Jithnuka" width={256} height={256} className="rounded-full" />
         </motion.div>
       </section>
 
@@ -246,10 +239,12 @@ export default function Home() {
               <p className={`${isDark ? "text-gray-300" : "text-gray-700"} mb-3`}>{proj.desc}</p>
               <div className="flex gap-2 mt-2">
                 {proj.tech.map((t) => (
-                  <img
+                  <Image
                     key={t}
                     src={`https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/${t.toLowerCase()}.svg`}
                     alt={t}
+                    width={24}
+                    height={24}
                     className="w-6 h-6"
                   />
                 ))}
