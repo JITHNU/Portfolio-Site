@@ -163,7 +163,7 @@ export default function Home() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-4"><br /><br />Hi, I am<span className="text-cyan-500">Jithnuka Weerasinghe</span></h1>
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-4"><br /><br />Hi, I&apos;m<span className="text-cyan-500">Jithnuka Weerasinghe</span></h1>
           <h2 className={clsx("text-2xl md:text-3xl font-medium mb-6", isDark ? "text-gray-300" : "text-gray-700")}>
             <Typewriter
               words={["AI/ML Enthusiast", "Aspiring Data Scientist", "Web Developer", "Turning Data into Insights"]}
@@ -202,7 +202,13 @@ export default function Home() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <Image src="/profile.jpg" alt="Jithnuka" width={256} height={256} className="rounded-full" />
+          <Image
+            src="/profile.jpg"
+            alt="Profile"
+            width={160}
+            height={160}
+            className="rounded-full w-40 h-40"
+          />        
         </motion.div>
       </section>
 
