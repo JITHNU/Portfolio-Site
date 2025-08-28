@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Jithnuka Weerasinghe",
   description: "This is My Personal Portfolio Web Site",
+  icons: {
+    icon: "/favicon.jpg", 
+  },
 };
 
 export default function RootLayout({
