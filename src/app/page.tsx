@@ -258,7 +258,7 @@ export default function Home() {
       </section>
 
       {/* Experience */}
-      <section id="experience" className="py-20 px-6 max-w-6xl mx-auto">
+      <section id="experience" className="py-20 px-15 max-w-6xl mx-auto">
         <h2 className={`text-4xl font-bold text-center mb-12 ${isDark ? "text-white" : "text-gray-900"}`}>
           Education & Experience
         </h2>
